@@ -253,7 +253,7 @@ class Myassistant():
         stop()
 
     def buttontriplepress(self):
-        print("Create your own action for button triple press")
+        print("Can create our own action for button triple press")
 
     def pushbutton(self):
         if GPIOcontrol:
