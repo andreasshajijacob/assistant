@@ -903,7 +903,7 @@ class Myassistant():
                             for changevollevel in re.findall(r'\b\d+\b', str(usrcmd)):
                                 changevollevel=int(changevollevel)
                         else:
-                            changevollevel=10
+                            changevollevel=05
                         newvollevel= oldvollevel+ changevollevel
                         print(newvollevel)
                         if int(newvollevel)>100:
